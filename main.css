@@ -15,10 +15,20 @@ a:hover {
 
 #content {
     position: absolute;
+    margin: 25px 300px 0px 300px;
     text-align: center;
     max-width: auto;
     padding: 32px;
     line-height: 1.6em;
+}
+
+#publications {
+    position: absolute;
+    margin: 25px 300px 0px 300px;
+    text-align: left;
+    max-width: auto;
+    padding: 32px;
+    line-height: 1.2em;
 }
 
 .avatar {
@@ -32,7 +42,7 @@ a:hover {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 3%;
     max-width: 320px;
     margin: 1em auto;
 }
