@@ -33,6 +33,7 @@ a:hover {
 
 script{
     display: none;
+    visibility: hidden;
  }
 
 .avatar {
