@@ -13,6 +13,48 @@ a:hover {
     color: #217ee7;
 }
 
+p {
+    line-height: 1.6em;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.image-txt-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    margin-right:50px;
+    margin-bottom: 75px;
+}
+.profile-pic{
+    margin-bottom:75px;
+}
+
+
 #content {
     position: absolute;
     margin: 0px 300px 0px 300px;
@@ -36,13 +78,7 @@ a:hover {
     visibility: hidden;
  }
 
-.avatar {
-    border-radius: 50%;
-    width: 200px;
-    margin-right:50px
-}
-
-.icons {
+ .icons {
     list-style-type: none;
     font-size: xx-large;
     padding: 0;
@@ -66,15 +102,7 @@ a:hover {
     color: #1565c0;
 }
 
-.image-txt-container {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
 
-.profile-pic{
-    margin-bottom: 70px;
-}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -82,24 +110,3 @@ a:hover {
     margin-bottom: 10px;
 }
   
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-  
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  
-  /* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
