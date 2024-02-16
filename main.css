@@ -19,7 +19,7 @@ a:hover {
     text-align: center;
     max-width: auto;
     padding: 32px;
-    line-height: 1.6em;
+    line-height: 1.2em;
 }
 
 #publications {
@@ -73,7 +73,7 @@ a:hover {
   }
 
 .profile-pic{
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 }
 /* Add a black background color to the top navigation */
 .topnav {
