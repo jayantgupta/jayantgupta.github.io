@@ -16,6 +16,7 @@ a:hover {
 p {
     line-height: 1.6em;
 }
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -93,7 +94,6 @@ p {
 .icons a:hover {
     color: #1565c0;
 }
-
 
 /* Add a black background color to the top navigation */
 .topnav {
