@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Define title -->
+    <title>Library</title>
+
+    <!-- Include favicon. Use, e.g., https://favicon.io/ -->
+<!--    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />-->
+
+    <!-- Include style sheets -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Fonts from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
+
+    <!-- Load FontAwesome (for icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Load Academicons (for more icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css"
+      integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
+      crossorigin="anonymous"
+    />
+
+    
+  </head>
+  <body>
+    <section id="publications">
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="./publications.html">Publications</a>
+        <a class = "active" href="./reading_list.html">Reading</a>
+        <a href="./spatial_analysis_software.html">Software List</a>
+      </div>
+      <li style="list-style-type:none">04.22.2024 (Monday):
+        <ul>
+          <li><a href="https://www.sciencedirect.com/science/article/pii/S1077314219300992">Multitask learning for large-scale semantic change detection.</a> Daudt, Rodrigo Caye, Bertrand Le Saux, Alexandre Boulch, and Yann Gousseau. Computer Vision and Image Understanding 187 (2019): 102783.</li>
+        </ul>
+      </li>
+      <li style="list-style-type:none">04.18.2024 (Thursday):
+        <ul>
+          <li><a href="https://arxiv.org/abs/2209.09125">Operationalizing machine learning: An interview study.</a> Shankar, Shreya, Rolando Garcia, Joseph M. Hellerstein, and Aditya G. Parameswaran. arXiv preprint arXiv:2209.09125 (2022).</a></li>
+        </ul>
+      </li>
+      <li style="list-style-type:none">04.17.2024 (Wednesday):
+        <ul>
+          <li><a href="https://hbr.org/2024/04/why-engineers-should-study-philosophy">Why Engineers Should Study Philosophy</a>. Marco Agenti, Harvard business review, 04.16.2024.</li>
+          <li><a href="https://arxiv.org/abs/2209.09125">Operationalizing machine learning: An interview study.</a> Shankar, Shreya, Rolando Garcia, Joseph M. Hellerstein, and Aditya G. Parameswaran. arXiv preprint arXiv:2209.09125 (2022).</a></li>
+          <!-- Summary: The is an interview study describing the process of developing machine learning systems.
+          -->
+        </ul>
+      </li>
+      <li style="list-style-type:none">04.16.2024 (Tuesday):
+        <ul>
+          <li><a href="https://isabelizimm.me/posts/learn-mlops/">So, you want to learn about MLOps</a>. Isabel Zimmerman, 04.05.2024.</li>
+          <!-- Summary: The document describes the steps to troubleshoot (e.g., debug, model-performance, fine-tuning, etc.) deep learnig models. It provides a 
+            template to develop deep learning models and the aspects (e.g., choice of architecture, debugging mechanism, etc.) which needs to be considered to 
+            troubleshoot the models.
+          -->
+        </ul>
+      </li>
+      <li style="list-style-type:none">04.15.2024 (Monday):
+        <ul>
+          <li><a href="https://fullstackdeeplearning.com/spring2021/lecture-7/">Lecture 7: Troubleshooting Deep Neural Networks</a>. fullstackdeeplearning.com.</li>
+          <!-- Summary: The document describes the steps to troubleshoot (e.g., debug, model-performance, fine-tuning, etc.) deep learnig models. It provides a 
+            template to develop deep learning models and the aspects (e.g., choice of architecture, debugging mechanism, etc.) which needs to be considered to 
+            troubleshoot the models.
+          -->
+        </ul>
+      </li>
+      <li style="list-style-type:none">04.12.2024 (Friday):
+        <ul>
+          <li><a href="https://ieeexplore.ieee.org/abstract/document/10283274">Have foundational models seen satellite images?</a> Panigrahi, Akash, Sagar Verma, Matthieu Terris, and Maria Vakalopoulou. In IGARSS 2023-2023 IEEE International Geoscience and Remote Sensing Symposium, pp. 4998-5001. IEEE, 2023.</li>
+          <!-- Summary: The document describes the process of transfer learning to fine-tune large-language models over standard remote-sensing datasets (e.g., EuroSAT, etc.).
+            The work concludes that some LLMs (e.g., ) perform better for remote sensing tasks (e.g., object detection, classification, etc.) after fine-tuning.
+          -->
+        </ul>
+      </li>
+      <li style="list-style-type:none">04.10.2024 (Wednesday):
+        <ul>
+          <li><a href="https://hal.science/hal-04349391/">Synthetix: Pipeline for Synthetic Geospatial Data Generation</a>. Verma, Sagar, Siddharth Gupta, and Kavya Gupta. (2023).</li>
+          <!-- Summary: The document describes a system to generate synthetic remote sensing imagery datasets based on user inputs (e.g., cloud cover percentage, object type, 
+            region of interest, etc.). The pipeline uses a combination of object generation libraries and Geo-Engine (a proprietary engine developed by the authors) to generate
+            these synthetic remote sensing imagery.
+          -->
+        </ul>
+      </li>
+      <li style="list-style-type:none">04.03.2024 (Wednesday):
+        <ul>
+            <li><a href="https://ieeexplore.ieee.org/abstract/document/8451652/">Fully convolutional siamese networks for change detection.</a> Daudt, Rodrigo Caye, Bertr Le Saux, and Alexandre Boulch. In 2018 25th IEEE international conference on image processing (ICIP), pp. 4063-4067. IEEE, 2018.</li>
+            <!-- Summary: The document describes the use of fully connected Siamese networks for Change Detection. Three types of networks are described within the paper - UNet-based network, 
+              UNet based siamese networks where, one takes the concatenation of the two images and the other takes the difference of the two images to train against the change maps (i.e, labels).
+            -->
+        </ul>
+      </li>
+      <li style="list-style-type:none">04.02.2024 (Tuesday):
+        <ul>
+            <li><a href="https://arxiv.org/abs/2010.05687">Semantic change detection with asymmetric Siamese networks.</a> Yang, Kunping, Gui-Song Xia, Zicheng Liu, Bo Du, Wen Yang, Marcello Pelillo, and Liangpei Zhang. arXiv preprint arXiv:2010.05687 (2020).</li>
+        </ul>
+      </li>
+      <li style="list-style-type:none">04.01.2024 (Monday):
+        <ul>
+          <li><a href="https://www.linkedin.com/pulse/unlock-power-geospatial-ai-models-spatial-consult-cikbf/">Unlock the Power of Geospatial AI Models.</a> Spatial Consult. 02.21.2024.</li>  
+          <li>NSF Proposal Review: Geo-AI Modeling of Street Violence, Drug Dealing, Built Environment, and Human Mobility Nexus using Geospatial Big Data, Remote Sensing, and High-Resolution Imagery from UAVs</li>
+         </ul>
+        </li>
+      <li style="list-style-type:none">03.28.2024 (Thursday):
+        <ul>
+          <li><a href="https://www.tandfonline.com/doi/full/10.1080/10095020.2022.2128902">A review of multi-class change detection for satellite remote sensing imagery.</a> Zhu, Qiqi, Xi Guo, Ziqi Li, and Deren Li. Geo-spatial Information Science (2022): 1-15.</li>  
+         </ul>
+        </li>
+      <li style="list-style-type:none">03.20.2024 (Wednesday):
+        <ul>
+          <li><a href="https://theodi.org/news-and-events/blog/geospatial-data-in-a-world-of-generative-ai/">Geospatial data in a world of generative AI</a>, Open Data Institute.</li>
+          <li><a href="https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html">loss functions</a>, bfortuner.</li>
+          <li><a href="https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html">Cross Entropy Loss</a>, PyTorch Contributors.</li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">03.18.2024 (Monday):
+        <ul>
+          <li><a href="https://towardsdatascience.com/contrastive-loss-explaned-159f2d4a87ec">Contrastive Loss Explained</a>, Brian Williams, 03.06.2020, Medium.</li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">03.13.2024 (Wednesday):
+        <ul>
+          <li><a href="https://arxiv.org/pdf/2402.02680.pdf">Large Language Models are Geographically Biased.</a> Manvi, Rohin, Samar Khanna, Marshall Burke, David Lobell, and Stefano Ermon. arXiv preprint arXiv:2402.02680 (2024).</li>
+          <!-- Summary: The paper discusses geographic bias in LLMs. The authors picked up three types of topics, 1. The objective topics with the ground truth, 
+            2. Sensitive subjective topics, and 3. Geographically independent topics. The comparison was done by comparing the ranks of different regions for a 
+            given topic (e.g., annual precipitation, development, or attractiveness, etc.) as opposed to the actual scores as the systems have no understanding 
+            what the score stands for. The results show that the LLM systems show geographic bias between developed (e.g., Europe, North America) and developing 
+            regions (e.g., Africa, South-east Asia).
+          -->
+        </ul>
+        </li>
+      <li style="list-style-type:none">03.11.2024 (Monday):
+        <ul>
+          <li><a href="https://dl.acm.org/doi/abs/10.1145/3557915.3561036">GeoTorch: a spatiotemporal deep learning framework.</a> Chowdhury, Kanchan, and Mohamed Sarwat. In Proceedings of the 30th International Conference on Advances in Geographic Information Systems, pp. 1-4. 2022.</li>
+          <!-- Summary: The library offers nothing new in terms of model training and inference. It is beacuse the library is using PyTorch to 
+                        create datasets / models and then using gpus/cpus to perform inference. The part which may be of interest is the pre-processing 
+                        (e.g., loading/partitioning) of the datasets and performing spatial alegbraic operations (e.g., mean, sum, diff, etc.) which uses 
+                        a distributed spatio-temporal framework (Apache Sedona) underneath. Further, many of the operations are presumed (e.g., creation
+                        of spectral features.)--> 
+                        <li><a href="https://fosdem.org/2024/schedule/event/fosdem-2024-2031-vector-search-in-modern-databases/">Vector Search in Modern Databases</a>. FOSEDEM' 24, Peter Zaitsev, Sergey Nikolaev</li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">03.06.2024 (Wednesday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial15/Vision_Transformer.html">Tutorial 15: Vision Transformers</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">03.05.2024 (Tuesday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial15/Vision_Transformer.html">Tutorial 15: Vision Transformers</a></li>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial6/Transformers_and_MHAttention.html">Tutorial 6: Transformers and Multi-Head Attention</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">03.04.2024 (Monday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial6/Transformers_and_MHAttention.html">Tutorial 6: Transformers and Multi-Head Attention</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">03.01.2024 (Friday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial6/Transformers_and_MHAttention.html">Tutorial 6: Transformers and Multi-Head Attention</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">02.29.2024 (Thursday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial5/Inception_ResNet_DenseNet.html">Tutorial 5: Inception, ResNet, and DenseNet</a></li>
+          <li><a href="https://towardsdatascience.com/batch-norm-explained-visually-how-it-works-and-why-neural-networks-need-it-b18919692739#:~:text=Batch%20Norm%20is%20a%20neural,stabilize%20the%20network%20during%20training.">Batch Norm Explained Visually — How it works, and why neural networks need it</a>. Ketan Doshi. 05.18.2021. Medium, towardsdatascience.com</li>
+          <li><a href="https://pythonhow.com/what/what-does-double-star-asterisk-and-star-asterisk-do-for-parameters/">What does ** (double star/asterisk) and * (star/asterisk) do for parameters?</a> PythonHow, Ardit Sulce.</li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">02.28.2024 (Wednesday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial5/Inception_ResNet_DenseNet.html">Tutorial 5: Inception, ResNet, and DenseNet</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">02.27.2024 (Tuesday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial5/Inception_ResNet_DenseNet.html">Tutorial 5: Inception, ResNet, and DenseNet</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">02.26.2024 (Monday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial4/Optimization_and_Initialization.html">Tutorial 4: Optimization and Initialization</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">02.24.2024 (Saturday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial4/Optimization_and_Initialization.html">Tutorial 4: Optimization and Initialization</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">02.23.2024 (Friday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial4/Optimization_and_Initialization.html">Tutorial 4: Optimization and Initialization</a></li>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial3/Activation_Functions.html">Tutorial 3: Activation Functions</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">02.22.2024 (Thursday):
+        <ul>
+          <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial3/Activation_Functions.html">Tutorial 3: Activation Functions</a></li>
+        </ul>
+        </li>
+      <li style="list-style-type:none">02.21.2024 (Wednesday):
+           <ul>
+           <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial3/Activation_Functions.html">Tutorial 3: Activation Functions</a></li>
+           </ul>
+           </li>
+           <li style="list-style-type:none">02.20.2024 (Tuesday):
+           <ul>
+           <li><a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html">Tutorial 2: Introduction to Pytorch</a></li>
+           </ul>
+           </li>
+           <li style="list-style-type:none">02.19.2024 (Monday):
+            <ul>
+            <li><a href="https://towardsdatascience.com/residual-blocks-in-deep-learning-11d95ca12b00">Residual Blocks in Deep Learning</a>, Harsh Yadav, Medium, towardsdatascience.com, 07.2022.</li>
+            <li><a href="https://dl.acm.org/doi/abs/10.1145/3589132.3625648">Modeling Spatially Varying Physical Dynamics for Spatiotemporal Predictive Learning.</a> Lin, Yijun, and Yao-Yi Chiang. In Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems, pp. 1-11. 2023.</li>
+            </ul>
+           </li>
+           <li style="list-style-type:none">Backlog:
+            <ul>
+              <li><a href="https://www.pinecone.io/learn/retrieval-augmented-generation/">Retrieval augmented generation (RAG)</a>. Zachary Proser, Aug 3, 2023, Pinecone.com.</li>
+              <li><a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/aad9f93b86b7addfea4c419b9100c6cdd26cacea.pdf">The ML test score: A rubric for ML production readiness and technical debt reduction.</a> Breck, Eric, Shanqing Cai, Eric Nielsen, Michael Salib, and D. Sculley. In 2017 IEEE International Conference on Big Data (Big Data), pp. 1123-1132. IEEE, 2017.</li>
+              <li><a href="https://www.tandfonline.com/doi/abs/10.1080/10095020.2022.2157762">STCD: efficient Siamese transformers-based change detection method for remote sensing images.</a> Wang, Decheng, Xiangning Chen, Ningbo Guo, Hui Yi, and Yinan Li. Geo-spatial Information Science (2023): 1-20.</a></li>
+              <li><a href="https://jaykmody.com/blog/gpt-from-scratch/">GPT in 60 Lines of NumPy</a>, Jay Mody, Jan 30, 2023</li>
+              <li><a href="https://towardsdatascience.com/leveraging-geolocation-data-for-machine-learning-essential-techniques-192ce3a969bc">Leveraging Geolocation Data for Machine Learning: Essential Techniques.</a> Ketan Doshi, April 17, 2021, Medium</li>
+            </ul>
+           </li>
+           <li style="list-style-type:none">Additional Resources:
+            <ul>
+              <li><a href="https://towardsdatascience.com/a-complete-guide-to-write-your-own-transformers-29e23f371ddd">A Complete Guide to Write your own Transformers.</a> Bnejamin Etienne, 02.24.2024.</li>
+            </ul>
+           </li>
+
+           <li style="list-style-type:none">Stackoverflow:
+            <ul>
+              <li><a href="https://stackoverflow.com/questions/47544051/when-should-i-use-nn-modulelist-and-when-should-i-use-nn-sequential">When should I use nn.ModuleList and when should I use nn.Sequential?.</a></li>
+              <li><a href="https://softwareengineering.stackexchange.com/questions/225956/python-assert-vs-if-return">Python - assert vs if & return.</a></li>
+              <li><a href="https://stackoverflow.com/questions/75372275/importerror-cannot-import-name-gdal-array-from-osgeo">ImportError: cannot import name '_gdal_array' from 'osgeo'</a></li>
+              <li><a href="https://stackoverflow.com/questions/74947992/how-to-remove-the-error-systemerror-initialization-of-internal-failed-without">How to remove the error "SystemError: initialization of _internal failed without raising an exception</a></li>
+            </ul>
+           </li>
+        </ul>
+    </section>
+  </body>
+  </html>
